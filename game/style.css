@@ -1,0 +1,25 @@
+/* GLOWMOTH — Night Garden: the page around the canvas. The game is the canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #070b24; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #e8ecff;
+}
+main { text-align: center; padding: 12px; }
+canvas {
+  display: block;
+  width: min(1280px, 96vw);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 60px rgba(255, 210, 102, 0.12), 0 8px 40px rgba(0, 0, 0, 0.6);
+  background: #070b24;
+}
+#status {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #b9c2e8;
+}
